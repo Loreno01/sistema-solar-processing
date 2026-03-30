@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="jix5r-P8iySyXLHlEBxx">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lEykarg8Png-YSug-bs5-8" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-19" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sol" vertex="1">
+          <mxGeometry height="160" width="160" x="480" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-18" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Planeta 1" vertex="1">
+          <mxGeometry height="120" width="120" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Planeta 2" vertex="1">
+          <mxGeometry height="120" width="120" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Planeta 3" vertex="1">
+          <mxGeometry height="120" width="120" x="680" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Transformações:&lt;div&gt;1: Translação&lt;/div&gt;&lt;div&gt;2: Rotação&lt;/div&gt;&lt;div&gt;3: Escala&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="880" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lua Planeta 1" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lua Planeta 1" vertex="1">
+          <mxGeometry height="80" width="80" x="310" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Rotação = Theta" vertex="1">
+          <mxGeometry height="30" width="60" x="810" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

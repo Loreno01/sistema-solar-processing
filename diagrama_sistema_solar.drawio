@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="jix5r-P8iySyXLHlEBxx">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-16" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-17" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta do Planela&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Sol&lt;/div&gt;&lt;div&gt;Escala = Diâmetro do Planeta&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.44" as="geometry">
+            <mxPoint x="-8" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-19" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-22" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta do Planela&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Sol&lt;/div&gt;&lt;div&gt;Escala = Diâmetro do Planeta&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.355" y="-1" as="geometry">
+            <mxPoint x="9" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-20" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="E0G6dimTrRILwQg2D8Lq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-21" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta do Planela&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Sol&lt;/div&gt;&lt;div&gt;Escala = Diâmetro do Planeta&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2167" y="1" as="geometry">
+            <mxPoint x="-26" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Sol" vertex="1">
+          <mxGeometry height="160" width="160" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-12" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEykarg8Png-YSug-bs5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-23" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta da Lua&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Planeta&lt;/div&gt;&lt;div&gt;Escala = Diâmetro da Lua&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Planeta 1" vertex="1">
+          <mxGeometry height="120" width="120" x="440" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-8" edge="1" parent="1" source="lEykarg8Png-YSug-bs5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E0G6dimTrRILwQg2D8Lq-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-26" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta da Lua&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Planeta&lt;/div&gt;&lt;div&gt;Escala = Diâmetro da Lua&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0286" y="-1" as="geometry">
+            <mxPoint x="-4" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Planeta 3" vertex="1">
+          <mxGeometry height="120" width="120" x="440" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Transformações:&lt;div&gt;1: Translação&lt;/div&gt;&lt;div&gt;2: Rotação&lt;/div&gt;&lt;div&gt;3: Escala&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lEykarg8Png-YSug-bs5-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="Lua Planeta 1" vertex="1">
+          <mxGeometry height="80" width="80" x="840" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="Lua Planeta 3" vertex="1">
+          <mxGeometry height="80" width="80" x="840" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-13" edge="1" parent="1" source="E0G6dimTrRILwQg2D8Lq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E0G6dimTrRILwQg2D8Lq-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-24" connectable="0" parent="E0G6dimTrRILwQg2D8Lq-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rotação = Theta da Lua&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Translação = Distância em Relação ao Planeta&lt;/div&gt;&lt;div&gt;Escala = Diâmetro da Lua&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1429" as="geometry">
+            <mxPoint x="-20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Planeta 2" vertex="1">
+          <mxGeometry height="120" width="120" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="E0G6dimTrRILwQg2D8Lq-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="Lua Planeta 2" vertex="1">
+          <mxGeometry height="80" width="80" x="840" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
