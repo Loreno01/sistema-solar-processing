@@ -1,29 +1,45 @@
-// An array of 4 planet objects
+// Cria um array de 3 objetos "Planeta"
 Planet[] planets = new Planet[3];
 
-void setup() {
-  size(480, 270);
+// Dados para desenhar estrelas no céu (estética)
+int numStars = 200;
+float[] starsX = new float[numStars];
+float[] starsY = new float[numStars];
 
-  // The planet objects are initialized using the counter variable
-  for (int i = 0; i < planets.length; i++ ) {
-    planets[i] = new Planet(60 + i*36, 24);
+void setup() {
+  size(600, 600);
+
+  // Inicializa os objetos "Planeta"
+  for (int p = 0; p < planets.length; p++) {
+    planets[p] = new Planet(60 + p*36, 24, color(random(0, 255), random(0, 255), random(0, 255)), 2);
+  }
+
+  for (int i = 0; i < numStars; i++) {
+    starsX[i] = random(width);
+    starsY[i] = random(height);
   }
 }
 
 void draw() {
-  background(255);
+  // Desenha o espaço em azul escuro
+  background(10, 15, 30);
 
-  // Drawing the Sun
+  // Estrelas
+  stroke(255);
+  for (int i = 0; i < numStars; i++) {
+    point(starsX[i], starsY[i]);
+  }
+
+  // Desenha um sol amarelo no centro do espaço
   pushMatrix();
   translate(width/2, height/2);
   stroke(0);
-  fill(255);
+  fill(255, 220, 0);
   ellipse(0, 0, 64, 64);
-
-  // Drawing all Planets
-  for (int i = 0; i < planets.length; i++ ) {
-    planets[i].update();
-    planets[i].display();
+  // Desenha todos os planetas em volta do sol
+  for (int p = 0; p < planets.length; p++) {
+    planets[p].update();
+    planets[p].display();
   }
   popMatrix();
 }
