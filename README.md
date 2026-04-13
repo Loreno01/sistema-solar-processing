@@ -38,6 +38,12 @@ Cada dupla implementa as seguintes **modificações preservando a arquitetura:**
 - **5º:** O update de "lua" é realizado apenas quando for feito o update de "planeta", mantendo assim uma estrutura de execução bem definida, onde uma lua só pode ter seu movimento atualizado em função do planeta ao qual está vinculada.
 
 ## 🚀 *Etapa 3 - Extensão*
+- Ajustes realizados na pasta/projeto **`SistemaSolar`** presente nesse repositório e podem ser visualizados na figura abaixo:
 
 ## 📝 *Etapa 4 - Relatório*
-
+### ***Resposta 1ª pergunta:***
+- Onde era necessário garantir uma "desconexão" entre instruções, ou seja, impedir que novas instruções sobrescrevessem as anteriores. Um exemplo é a função `rotate()` utilizada no método `display()` da classe **Lua**, que não deveria afetar o `rotate()` da classe **Planeta**, responsável por invocar o `display()` da **Lua**. Funciona quase como um "empilhamento" de contextos, assegurando que as variáveis de execução do planeta não sejam alteradas pelas variáveis de execução da lua. O `pushMatrix()` inicia o contexto e o `popMatrix()` finaliza.
+### ***Resposta 2ª pergunta:***
+- Invertendo `rotate()`, é alterado o sentido da rotação dos planetas e das luas para o oposto (valores negativos indicam rotação no sentido anti-horário, enquanto valores positivos indicam rotação no sentido horário). Já ao inverter `translate()`, é alterada a posição de criação dos planetas e das luas (valores negativos posicionam à esquerda, enquanto valores positivos posicionam à direita).
+### ***Resposta 3ª pergunta:***
+- Por conta da separação da lógica com os métodos `update()`, fazendo com que cada **Planeta** e **Lua** possam ter seu comportamento alterado a qualquer momento. E com o uso de matrizes aninhadas criadas por `pushMatrix()` e `popMatrix()`, cada **Planeta** e **Lua** possui seu próprio escopo independente, evitando que um objeto interfira na criação dos demais.
