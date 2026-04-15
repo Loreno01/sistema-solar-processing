@@ -16,14 +16,12 @@ class Planet {
     theta = 0;
     orbitspeed = random(0.01, 0.03);
 
-    // Usa um array de luas auxiliar para poder deixar o número de luas parametrizável
-    Moon[] moons_ = new Moon[number_moons_];
+    // Usa um array de luas para poder deixar o número de luas parametrizável
+    moons = new Moon[number_moons_];
     for (int m = 0; m < number_moons_; m++) {
       // Cria uma lua de distância e tamanho aleatórios
-      moons_[m] = new Moon(int(random(10, 50)), int(random(5, 20)));
+      moons[m] = new Moon(int(random(20, 50)), int(random(5, 20)));
     }
-    // Transcreve o array auxiliar para o array de luas principal
-    moons = moons_;
   }
 
   void update() {
