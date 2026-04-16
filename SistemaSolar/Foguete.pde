@@ -1,15 +1,13 @@
 class Rocket {
-
   float positionX, positionY;         // Posição atual
   float speed;                        // Velocidade
   float directionAngle;               // Direção
   float targetX, targetY;             // Posição do alvo
   boolean hasExploded = false;        // Estado da explosão
-  ArrayList<Effect> effects;          // Lista de efeitos
+  ArrayList<Effects> effects;         // Lista de efeitos
   ArrayList<Integer> explosionColors; // Cores da explosão
 
-  Rocket(float targetXValue, float targetYValue, ArrayList<Effect> effectsList, ArrayList<Integer> colorsList) {
-
+  Rocket(float targetXValue, float targetYValue, ArrayList<Effects> effectsList, ArrayList<Integer> colorsList) {
     positionX = 0;
     positionY = height;
 
@@ -23,7 +21,6 @@ class Rocket {
   }
 
   void update() {
-
     // Se não reealizou a explosão
     if (!hasExploded) {
 
@@ -40,7 +37,7 @@ class Rocket {
       float trailY = positionY - sin(directionAngle) * trailOffset;
 
       // Cria as partícula de rastro de fogo do foguete
-      effects.add(new Effect(trailX, trailY));
+      effects.add(new Effects(trailX, trailY));
 
       float distanceToTarget = dist(positionX, positionY, targetX, targetY);
 
@@ -56,14 +53,13 @@ class Rocket {
   }
 
   void explode() {
-
     // Indica que foi realizado a explosão
     hasExploded = true;
 
     // Cria as partículas da explosão
     for (int i = 0; i < 250; i++) {
       color randomColor = (color) explosionColors.get((int) random(explosionColors.size()));
-      effects.add(new Effect(targetX, targetY, randomColor));
+      effects.add(new Effects(targetX, targetY, randomColor));
     }
 
     // Ativa o tremor de câmera
@@ -71,15 +67,14 @@ class Rocket {
   }
 
   void display() {
-
     // Se ainda não realizou a explosão
     if (!hasExploded) {
 
       pushMatrix();
-      
+
       // Move para posição do foguete
       translate(positionX, positionY);
-      
+
       // Rotaciona na direção do movimento
       rotate(directionAngle + HALF_PI);
       rectMode(CENTER);

@@ -20,15 +20,18 @@ class Moon {
   void display() {
     // Antes da rotação e translação, o estado da matriz é salvo com pushMatrix()
     pushMatrix();
-    
+
     // Carrega a rotação da órbita da lua
     rotate(theta);
+    
     // Carrega a distância da lua em relação ao planeta
     translate(distance, 0);
+    
+    // Define aparência da lua
     stroke(0);
     fill(175);
     ellipse(0, 0, diameter, diameter);
-    
+
     // Uma vez que a lua é desenhada, a matriz é restaurada com popMatrix() para que a próxima lua não seja afetada
     popMatrix();
   }

@@ -1,12 +1,11 @@
-class Effect {
-  
+class Effects {
   float positionX, positionY; // Posição da partícula
   float velocityX, velocityY; // Velocidade da partícula
   float life;                 // Tempo de vida das partículas
   color particleColor;        // Cor da partícula
   boolean isTrail;            // Indica se é o rastro de fogo do foguete
 
-  Effect(float startX, float startY, color colorValue) {
+  Effects(float startX, float startY, color colorValue) {
     // Define a posição atual da partícula da explosão
     positionX = startX;
     positionY = startY;
@@ -29,7 +28,7 @@ class Effect {
     isTrail = false;
   }
 
-  Effect(float startX, float startY) {
+  Effects(float startX, float startY) {
     // Define a posição atual da partícula do rastro do foguete
     positionX = startX;
     positionY = startY;

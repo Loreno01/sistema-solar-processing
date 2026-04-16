@@ -18,8 +18,9 @@ class Planet {
 
     // Usa um array de luas para poder deixar o número de luas parametrizável
     moons = new Moon[number_moons_];
+    
+    // Cria as luas com distância e tamanho aleatórios
     for (int m = 0; m < number_moons_; m++) {
-      // Cria uma lua de distância e tamanho aleatórios
       moons[m] = new Moon(int(random(20, 50)), int(random(5, 20)));
     }
   }
@@ -27,6 +28,7 @@ class Planet {
   void update() {
     // Incremeta o ângulo de rotação
     theta += orbitspeed;
+
     // Atualiza todas as luas do planeta
     for (int m = 0; m < moons.length; m++) {
       moons[m].update();
@@ -36,14 +38,18 @@ class Planet {
   void display() {
     // Antes da rotação e translação, o estado da matriz é salvo com pushMatrix()
     pushMatrix();
-    
+
     // Carrega a rotação da órbita do planeta
     rotate(theta);
+
     // Carrega a distância do planeta em relação ao sol
     translate(distance, 0);
+
+    // Define aparência do planeta
     stroke(0);
     fill(planet_color);
     ellipse(0, 0, diameter, diameter);
+
     // Desenha todas as luas em volta do planeta
     for (int m = 0; m < moons.length; m++ ) {
       moons[m].display();
